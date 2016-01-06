@@ -1,2 +1,7 @@
 
+Task 1
 To build this STACK file I first cloned the drupal-vm repository to my local site using git/terminal.  I followed the README, 'quick start guide', to instal VirtualBox and Vagrant.  Then built the machine and removed the 'example' from my config.yml and drupal.make.yml.  I made sure the auto download was set to true and ran vagrant up.  Once vagrant was done doing its 'magic', I cd'd to my ~Sites/drupalvm/drupal and created the STACK file.  I used Sublime as well to write this file.
+
+Task 3
+
+It is better to start from a sub-theme for many reasons.  It allows you to start from a base theme and inherit all its HTML, CSS, PHP code and more.  It is easier to override parts of a parent theme, from a sub-theme, to your liking.  So instead of writing or theming a whole site from scratch you can just make edits and overwrites to a sub-theme specific to each project. 
