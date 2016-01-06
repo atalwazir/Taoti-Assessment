@@ -1,0 +1,2 @@
+
+To build this STACK file I first cloned the drupal-vm repository to my local site using git/terminal.  I followed the README, 'quick start guide', to instal VirtualBox and Vagrant.  Then built the machine and removed the 'example' from my config.yml and drupal.make.yml.  I made sure the auto download was set to true and ran vagrant up.  Once vagrant was done doing its 'magic', I cd'd to my ~Sites/drupalvm/drupal and created the STACK file.  I used Sublime as well to write this file.
