@@ -1,1 +1,10 @@
 <?php
+function sr_dev_preprocess(&$variables, $hook) {
+	$variables = array($bootstrap_panel);
+
+}
+/* sections to modify with html
+panel-heading
+panel-body
+
+hook = taoti_subtheme */
